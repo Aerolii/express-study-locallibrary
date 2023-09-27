@@ -19,5 +19,8 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest'
   },
-  ignorePatterns: ['node_modules', '.husky/**', 'bin/**']
+  ignorePatterns: ['node_modules', '.husky/**', 'bin/**'],
+  rules: {
+    camelcase: 'off'
+  }
 }
